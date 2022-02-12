@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/boludle/static/css/main.41d8d6fb.css",
-    "main.js": "/boludle/static/js/main.f77be121.js",
-    "static/js/787.b3f9d252.chunk.js": "/boludle/static/js/787.b3f9d252.chunk.js",
-    "index.html": "/boludle/index.html",
-    "main.41d8d6fb.css.map": "/boludle/static/css/main.41d8d6fb.css.map",
-    "main.f77be121.js.map": "/boludle/static/js/main.f77be121.js.map",
-    "787.b3f9d252.chunk.js.map": "/boludle/static/js/787.b3f9d252.chunk.js.map"
+    "main.css": "/static/css/main.41d8d6fb.css",
+    "main.js": "/static/js/main.b5b83e22.js",
+    "static/js/787.b3f9d252.chunk.js": "/static/js/787.b3f9d252.chunk.js",
+    "index.html": "/index.html",
+    "main.41d8d6fb.css.map": "/static/css/main.41d8d6fb.css.map",
+    "main.b5b83e22.js.map": "/static/js/main.b5b83e22.js.map",
+    "787.b3f9d252.chunk.js.map": "/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41d8d6fb.css",
-    "static/js/main.f77be121.js"
+    "static/js/main.b5b83e22.js"
   ]
 }
