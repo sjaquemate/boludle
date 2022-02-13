@@ -92,11 +92,7 @@ function App() {
   const [missingLetterMessage, setIsMissingLetterMessage] = useState('')
 
   useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
+    document.documentElement.classList.remove('dark') // remove dark mode
   }, [isDarkMode])
 
   const handleDarkMode = (isDark: boolean) => {
