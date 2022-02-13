@@ -100,6 +100,7 @@ function App() {
   }, [isDarkMode])
 
   const handleDarkMode = (isDark: boolean) => {
+    isDark = false //shortcut dark mode
     setIsDarkMode(isDark)
     localStorage.setItem('theme', isDark ? 'dark' : 'light')
   }

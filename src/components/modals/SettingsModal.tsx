@@ -26,11 +26,6 @@ export const SettingsModal = ({
           flag={isHardMode}
           handleFlag={handleHardMode}
         />
-        <SettingsToggle
-          settingName="Dark Mode"
-          flag={isDarkMode}
-          handleFlag={handleDarkMode}
-        />
       </div>
     </BaseModal>
   )
