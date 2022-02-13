@@ -3,7 +3,7 @@ import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { tomorrow } from '../../lib/words'
+import { solution, solutionDefinition, tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -46,15 +46,22 @@ export const StatsModal = ({
   }
   return (
     <BaseModal
-      title={STATISTICS_TITLE}
+      title=""
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
-        {GUESS_DISTRIBUTION_TEXT}
+        Definition
       </h4>
-      <Histogram gameStats={gameStats} />
+      <div>
+        <h5>{solution} {solutionDefinition}</h5>
+        <img
+          style={{width: "100%"}}
+          src={"https://c.tenor.com/qoZ_WpGaSOgAAAAS/diego-maradona-maradona.gif"}
+          alt=""
+        />
+      </div>
+
       {(isGameLost || isGameWon) && (
         <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
           <div>
@@ -77,6 +84,18 @@ export const StatsModal = ({
           </button>
         </div>
       )}
+
+      <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+        <br/>
+        {STATISTICS_TITLE}
+      </h4>
+
+      <StatBar gameStats={gameStats} />
+      <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+        {GUESS_DISTRIBUTION_TEXT}
+      </h4>
+      <Histogram gameStats={gameStats} />
+
     </BaseModal>
   )
 }
