@@ -45,19 +45,19 @@ export const StatsModal = ({
     )
   }
   return (
-    <BaseModal
-      title=""
-      isOpen={isOpen}
-      handleClose={handleClose}
-    >
+    <BaseModal title="" isOpen={isOpen} handleClose={handleClose}>
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
         Definition
       </h4>
       <div>
-        <h5>{solution} {solutionDefinition}</h5>
+        <h5>
+          {solution} {solutionDefinition}
+        </h5>
         <img
-          style={{width: "100%"}}
-          src={"https://c.tenor.com/qoZ_WpGaSOgAAAAS/diego-maradona-maradona.gif"}
+          style={{ width: '100%' }}
+          src={
+            'https://c.tenor.com/qoZ_WpGaSOgAAAAS/diego-maradona-maradona.gif'
+          }
           alt=""
         />
       </div>
@@ -86,7 +86,7 @@ export const StatsModal = ({
       )}
 
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
-        <br/>
+        <br />
         {STATISTICS_TITLE}
       </h4>
 
@@ -95,7 +95,6 @@ export const StatsModal = ({
         {GUESS_DISTRIBUTION_TEXT}
       </h4>
       <Histogram gameStats={gameStats} />
-
     </BaseModal>
   )
 }

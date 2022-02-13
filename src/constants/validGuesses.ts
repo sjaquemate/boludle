@@ -10834,5 +10834,5 @@ export const VALID_GUESSES = [
   'ñurdo',
   'ñutas',
   'ñutos',
-  'ñuzco'
+  'ñuzco',
 ]

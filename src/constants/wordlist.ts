@@ -1,12 +1,12 @@
 type Definition = {
-  word: string,
+  word: string
   definition: string
 }
 
 const definitions: Definition[] = [
-  {word: 'cheto', definition: 'una cosa'},
-  {word: 'diego', definition: 'Maradona'},
-  {word: 'hallo', definition: 'checo is a cosa'}
+  { word: 'cheto', definition: 'una cosa' },
+  { word: 'diego', definition: 'Maradona' },
+  { word: 'hallo', definition: 'checo is a cosa' },
 ]
 
 let WORDS: string[] = []
