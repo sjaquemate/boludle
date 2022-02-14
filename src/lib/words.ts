@@ -1,8 +1,10 @@
 import { WORDS, DEFINITIONS } from '../constants/wordlist'
 import { VALID_GUESSES } from '../constants/validGuesses'
 import { getGuessStatuses } from './statuses'
-import { GUESS_MUST_CONTAIN_MESSAGE, MUST_USE_LETTER_IN_POSITION_MESSAGE
-       } from '../constants/strings'
+import {
+  GUESS_MUST_CONTAIN_MESSAGE,
+  MUST_USE_LETTER_IN_POSITION_MESSAGE,
+} from '../constants/strings'
 
 export const isWordInWordList = (word: string) => {
   return (
@@ -27,7 +29,7 @@ export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
         knownLetterSet.add(guess[i])
       }
       if (statuses[i] === 'correct' && word[i] !== guess[i]) {
-        return MUST_USE_LETTER_IN_POSITION_MESSAGE(guess[i], i+1)
+        return MUST_USE_LETTER_IN_POSITION_MESSAGE(guess[i], i + 1)
       }
     }
   }
@@ -58,5 +60,4 @@ export const getWordOfDay = () => {
   }
 }
 
-export const { solution, definition, solutionIndex, tomorrow } =
-  getWordOfDay()
+export const { solution, definition, solutionIndex, tomorrow } = getWordOfDay()

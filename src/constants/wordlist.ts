@@ -11,18 +11,20 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'cacha',
     definition: 'del verbo "cachar", sinónimo de entender.',
-    example: "cachás lo que te estoy diciendo, Juli?"
+    example: 'cachás lo que te estoy diciendo, Juli?',
   },
   {
     word: 'afano',
     definition: 'sinónimo de robo.',
-    example: 'che Anita, cómo les fue en el partido?" "perdimos... pero fue alto afano, el árbitro estaba re comprado'
+    example:
+      'che Anita, cómo les fue en el partido?" "perdimos... pero fue alto afano, el árbitro estaba re comprado',
   },
   {
     word: 'torra',
     definition: 'del verbo "torrar", sinónimo de dormir.',
-    example: 'Che, alguien vio al gato?" "ni idea, seguro está torrando en el cuarto de Trini'
-  }
+    example:
+      'Che, alguien vio al gato?" "ni idea, seguro está torrando en el cuarto de Trini',
+  },
 ]
 
 let WORDS: string[] = []

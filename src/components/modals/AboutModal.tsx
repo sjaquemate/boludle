@@ -7,11 +7,14 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="Sobre este juego" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal
+      title="Sobre este juego"
+      isOpen={isOpen}
+      handleClose={handleClose}
+    >
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Este es un juego argentino basado en el código open-source del juego de adivinanzas
-        de palabras que todos conocemos y amamos
-        -{' '}
+        Este es un juego argentino basado en el código open-source del juego de
+        adivinanzas de palabras que todos conocemos y amamos -{' '}
         <a
           href="https://github.com/sjaquemate/boludle"
           className="underline font-bold"
