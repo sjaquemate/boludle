@@ -3,7 +3,7 @@ import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { solution, definition, solutionGifUrl, tomorrow } from '../../lib/words'
+import { solution, definition, tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -51,10 +51,10 @@ export const StatsModal = ({
       </h4>
       <div>
         <h5>
-          <strong>{solution}</strong> — {definition.definition}. <br/> <i>E.j: "{definition.example}"</i>
+          <strong>{solution}</strong> — {definition.definition} <br/> <i>E.j: "{definition.example}"</i>
         </h5>
         <img
-          src={solutionGifUrl}
+          src={definition.gifUrl}
           alt=""
         />
       </div>

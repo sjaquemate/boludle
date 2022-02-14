@@ -7,15 +7,23 @@ type Props = {
 
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Sobre este juego" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        Este es un juego argentino basado en el código open-source del juego de adivinanzas
+        de palabras que todos conocemos y amamos
+        -{' '}
+        <a
+          href="https://github.com/sjaquemate/boludle"
+          className="underline font-bold"
+        >
+          mira el código argentino acá
+        </a>{' '}
+        -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-          check out the code here
+          y el código original acá
         </a>{' '}
       </p>
     </BaseModal>

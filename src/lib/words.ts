@@ -1,6 +1,8 @@
 import { WORDS, DEFINITIONS } from '../constants/wordlist'
 import { VALID_GUESSES } from '../constants/validGuesses'
 import { getGuessStatuses } from './statuses'
+import { GUESS_MUST_CONTAIN_MESSAGE, MUST_USE_LETTER_IN_POSITION_MESSAGE
+       } from '../constants/strings'
 
 export const isWordInWordList = (word: string) => {
   return (
@@ -25,7 +27,7 @@ export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
         knownLetterSet.add(guess[i])
       }
       if (statuses[i] === 'correct' && word[i] !== guess[i]) {
-        return `Must use ${guess[i]} in position ${i + 1}`
+        return MUST_USE_LETTER_IN_POSITION_MESSAGE(guess[i], i+1)
       }
     }
   }
@@ -33,30 +35,28 @@ export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
   for (const letter of Array.from(knownLetterSet.values())) {
     // fail fast, always return first failed letter if applicable
     if (!word.includes(letter)) {
-      return `Guess must contain ${letter}`
+      return GUESS_MUST_CONTAIN_MESSAGE(letter)
     }
   }
   return false
 }
 
 export const getWordOfDay = () => {
-  const epochMs = new Date('February 12, 2022 00:00:00').valueOf()
+  const epochMs = new Date('February 14, 2022 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
   const solution = WORDS[index % WORDS.length].toUpperCase()
-  const definition = DEFINITIONS[index % DEFINITIONS.length]  // make it return a type also containing url and more formatted description
-  const gifUrl = 'https://github.com/sjaquemate/boludle/blob/main/src/assets/'+solution.toLowerCase()+'.gif?raw=true'
+  const definition = DEFINITIONS[index % DEFINITIONS.length]
 
   return {
     solution: solution,
     definition: definition,
-    solutionGifUrl: gifUrl,
     solutionIndex: index,
     tomorrow: nextday,
   }
 }
 
-export const { solution, definition, solutionGifUrl, solutionIndex, tomorrow } =
+export const { solution, definition, solutionIndex, tomorrow } =
   getWordOfDay()

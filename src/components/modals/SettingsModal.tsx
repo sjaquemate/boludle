@@ -19,10 +19,10 @@ export const SettingsModal = ({
   handleDarkMode,
 }: Props) => {
   return (
-    <BaseModal title="Settings" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Ajustes" isOpen={isOpen} handleClose={handleClose}>
       <div className="grid-cols-2 gap-4">
         <SettingsToggle
-          settingName="Hard Mode"
+          settingName="Modo Difícil"
           flag={isHardMode}
           handleFlag={handleHardMode}
         />
