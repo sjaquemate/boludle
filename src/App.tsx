@@ -13,6 +13,7 @@ import { StatsModal } from './components/modals/StatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
 import {
   GAME_TITLE,
+  GAME_SUB_TITLE,
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   ABOUT_GAME_MESSAGE,
@@ -205,7 +206,7 @@ function App() {
 
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-8 mt-20">
+      <div className="flex w-80 mx-auto items-center mb-0 mt-20">
         <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
           {GAME_TITLE}
         </h1>
@@ -221,6 +222,11 @@ function App() {
           className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
           onClick={() => setIsSettingsModalOpen(true)}
         />
+      </div>
+      <div className="flex w-80 mx-auto mb-6 mt-0">
+        <h4 className="text-sm ml-2.5 grow font-medium text-gray-900">
+          {GAME_SUB_TITLE}
+        </h4>
       </div>
       <Grid
         guesses={guesses}

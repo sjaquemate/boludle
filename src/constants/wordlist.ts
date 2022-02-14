@@ -1,20 +1,20 @@
 type Definition = {
   word: string
   definition: string
+  example: string
 }
 
 const definitions: Definition[] = [
-  { word: 'cheto', definition: 'una cosa' },
-  { word: 'diego', definition: 'Maradona' },
-  { word: 'hallo', definition: 'checo is a cosa' },
+  { word: 'cacha',
+    definition: 'del verbo "cachar", sinónimo de entender',
+    example: 'cachás lo que te estoy diciendo, Juli?'},
 ]
 
 let WORDS: string[] = []
-let DEFINITIONS: string[] = []
+let DEFINITIONS = definitions
 
 definitions.forEach(function (item, index) {
   WORDS.push(item.word)
-  DEFINITIONS.push(item.definition)
 })
 
 export { WORDS, DEFINITIONS }

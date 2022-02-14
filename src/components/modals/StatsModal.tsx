@@ -3,7 +3,7 @@ import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { solution, solutionDefinition, tomorrow } from '../../lib/words'
+import { solution, definition, solutionGifUrl, tomorrow } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
@@ -47,17 +47,14 @@ export const StatsModal = ({
   return (
     <BaseModal title="" isOpen={isOpen} handleClose={handleClose}>
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
-        Definition
+        Definición
       </h4>
       <div>
         <h5>
-          {solution} {solutionDefinition}
+          <strong>{solution}</strong> — {definition.definition}. <br/> <i>E.j: "{definition.example}"</i>
         </h5>
         <img
-          style={{ width: '100%' }}
-          src={
-            'https://c.tenor.com/qoZ_WpGaSOgAAAAS/diego-maradona-maradona.gif'
-          }
+          src={solutionGifUrl}
           alt=""
         />
       </div>

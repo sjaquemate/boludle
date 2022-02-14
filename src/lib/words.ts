@@ -45,14 +45,18 @@ export const getWordOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
+  const solution = WORDS[index % WORDS.length].toUpperCase()
+  const definition = DEFINITIONS[index % DEFINITIONS.length]  // make it return a type also containing url and more formatted description
+  const gifUrl = 'https://github.com/sjaquemate/boludle/blob/main/src/assets/'+solution.toLowerCase()+'.gif?raw=true'
 
   return {
-    solution: WORDS[index % WORDS.length].toUpperCase(),
-    solutionDefinition: DEFINITIONS[index % DEFINITIONS.length],
+    solution: solution,
+    definition: definition,
+    solutionGifUrl: gifUrl,
     solutionIndex: index,
     tomorrow: nextday,
   }
 }
 
-export const { solution, solutionDefinition, solutionIndex, tomorrow } =
+export const { solution, definition, solutionGifUrl, solutionIndex, tomorrow } =
   getWordOfDay()

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #74acdf;
+}
+
 :root {
   --animation-speed: 1000ms;
   --animation-speed-fast: 500ms;
