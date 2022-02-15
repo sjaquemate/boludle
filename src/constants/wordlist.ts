@@ -20,11 +20,17 @@ const DEFINITIONS: Definition[] = [
       'che Anita, cómo les fue en el partido?" "perdimos... pero fue alto afano, el árbitro estaba re comprado',
   },
   {
-    word: 'torra',
-    definition: 'del verbo "torrar", sinónimo de dormir.',
+    word: 'morfi',
+    definition: 'sinónimo de comida.',
     example:
-      'Che, alguien vio al gato?" "ni idea, seguro está torrando en el cuarto de Trini',
+      'Eu, ya está listo el morfi?" "Falta un toque todavía Stephie, ven',
   },
+  {
+    word: 'pucho',
+    definition: 'sinónimo de cigarrillo.',
+    example:
+      'Alguien me invita a un puchito?" "Na bueno, te re confiaste Euge',
+  }
 ]
 
 let WORDS: string[] = []
