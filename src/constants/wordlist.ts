@@ -23,7 +23,7 @@ const DEFINITIONS: Definition[] = [
     word: 'morfi',
     definition: 'sinónimo de comida.',
     example:
-      'Eu, ya está listo el morfi?" "Falta un toque todavía Stephie, ven',
+      'Eu, ya está listo el morfi?" "Falta un toque todavía Stephie, vení a ayudar' ,
   },
   {
     word: 'pucho',
