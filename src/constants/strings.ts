@@ -1,4 +1,4 @@
-export const GAME_TITLE = process.env.REACT_APP_GAME_NAME! 🧉
+export const GAME_TITLE = `${process.env.REACT_APP_GAME_NAME!} 🧉`
 export const GAME_SUB_TITLE = 'Un juego argentino'
 export const WIN_MESSAGES = ['No sos ningún boludle!']
 export const GAME_COPIED_MESSAGE = 'Partida de juego copiada'
