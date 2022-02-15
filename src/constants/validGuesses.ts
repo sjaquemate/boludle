@@ -10862,5 +10862,4 @@ export const VALID_GUESSES = [
   'torra',
   'gedes',
   'garca',
-
 ]

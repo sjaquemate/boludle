@@ -28,9 +28,8 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'pucho',
     definition: 'sinónimo de cigarrillo.',
-    example:
-      'Alguien me invita a un puchito?" "Na bueno, te re confiaste Euge',
-  }
+    example: 'Alguien me invita a un puchito?" "Na bueno, te re confiaste Euge',
+  },
 ]
 
 let WORDS: string[] = []
