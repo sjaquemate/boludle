@@ -50,7 +50,7 @@ export const StatsModal = ({
 
       {(isGameLost || isGameWon) && (
         <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
-        Definición
+          Definición
         </h4>
         <div>
           <h5>
