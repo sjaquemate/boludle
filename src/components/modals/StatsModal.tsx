@@ -46,20 +46,22 @@ export const StatsModal = ({
   }
   return (
     <BaseModal title="" isOpen={isOpen} handleClose={handleClose}>
-
+      {(isGameLost || isGameWon) && (
+        <div>
+          <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
+            Definición
+          </h4>
+          <div>
+            <h5>
+              <strong>{solution}</strong> — {definition.definition} <br />{' '}
+              <i>E.j: "{definition.example}"</i>
+            </h5>
+            <img src={definition.gifUrl} alt="" />
+          </div>
+        </div>
+      )}
 
       {(isGameLost || isGameWon) && (
-        <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
-          Definición
-        </h4>
-        <div>
-          <h5>
-            <strong>{solution}</strong> — {definition.definition} <br />{' '}
-            <i>E.j: "{definition.example}"</i>
-          </h5>
-          <img src={definition.gifUrl} alt="" />
-        </div>
-
         <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
           <div>
             <h5>{NEW_WORD_TEXT}</h5>
