@@ -33,8 +33,9 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'bardo',
     definition: 'sinónimo de lío, quilombo.',
-    example: 'Eu Lucas no sabés, solo una persona aprobó el parcial" "Uf, se le va a armar alto bardo al profesor',
-  }
+    example:
+      'Eu Lucas no sabés, solo una persona aprobó el parcial" "Uf, se le va a armar alto bardo al profesor',
+  },
 ]
 
 let WORDS: string[] = []
