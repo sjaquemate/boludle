@@ -30,6 +30,11 @@ const DEFINITIONS: Definition[] = [
     definition: 'sinónimo de cigarrillo.',
     example: 'Alguien me invita a un puchito?" "Na bueno, te re confiaste Euge',
   },
+  {
+    word: 'bardo',
+    definition: 'sinónimo de lío, quilombo.',
+    example: 'Eu Lucas no sabés, solo una persona aprobó el parcial" "Uf, se le va a armar alto bardo al profesor',
+  }
 ]
 
 let WORDS: string[] = []
