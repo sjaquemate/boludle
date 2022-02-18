@@ -1,5 +1,3 @@
-import { GIF_URL } from './settings'
-
 type Definition = {
   word: string
   definition: string
