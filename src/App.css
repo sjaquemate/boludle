@@ -4,5 +4,6 @@ html.dark {
 
 img {
   border-radius: 5%;
-  width: 100%;
+  width: 75%;
+  margin: 0 auto;
 }

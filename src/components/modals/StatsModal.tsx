@@ -57,14 +57,24 @@ export const StatsModal = ({
               <strong>{solution}</strong> — {definition.definition} <br />{' '}
               <i>E.j: "{definition.example}"</i>
             </h5>
-            {isGameWon && <img src={GIF_URL(solution)} alt="" />}
-            {isGameLost && <img src={GIF_URL('boludle')} alt="" />}
+            {isGameWon && (
+              <div className="mt-5">
+                {' '}
+                <img src={GIF_URL(solution)} alt="" />{' '}
+              </div>
+            )}
+            {isGameLost && (
+              <div className="mt-5">
+                {' '}
+                <img src={GIF_URL('boludle')} alt="" />{' '}
+              </div>
+            )}
           </div>
         </div>
       )}
 
       {(isGameLost || isGameWon) && (
-        <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
+        <div className="mt-5 sm:mt-5 columns-2 dark:text-white">
           <div>
             <h5>{NEW_WORD_TEXT}</h5>
             <Countdown
