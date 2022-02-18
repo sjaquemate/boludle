@@ -10902,4 +10902,7 @@ export const VALID_GUESSES = [
   'ladri',
   'fiolo',
   'frula',
+  'geder',
+  'yeite',
+  'grela'
 ]
