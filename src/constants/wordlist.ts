@@ -4,7 +4,6 @@ type Definition = {
   word: string
   definition: string
   example: string
-  gifUrl?: string
 }
 
 const DEFINITIONS: Definition[] = [
@@ -47,7 +46,6 @@ let WORDS: string[] = []
 
 DEFINITIONS.forEach(function (item, index) {
   WORDS.push(item.word)
-  DEFINITIONS[index].gifUrl = GIF_URL(item.word)
 })
 
 export { WORDS, DEFINITIONS }
