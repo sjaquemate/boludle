@@ -10904,5 +10904,5 @@ export const VALID_GUESSES = [
   'frula',
   'geder',
   'yeite',
-  'grela'
+  'grela',
 ]

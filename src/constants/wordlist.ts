@@ -38,8 +38,9 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'crack',
     definition: 'dícese de alguien que es muy bueno para algo.',
-    example: 'Boludle, viste cómo toca la guitarra Guille?" "Siii, tremendo, es un crack'
-  }
+    example:
+      'Boludle, viste cómo toca la guitarra Guille?" "Siii, tremendo, es un crack',
+  },
 ]
 
 let WORDS: string[] = []

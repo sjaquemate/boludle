@@ -11,7 +11,7 @@ import {
   NEW_WORD_TEXT,
   SHARE_TEXT,
 } from '../../constants/strings'
-import {GIF_URL} from '../../constants/settings'
+import { GIF_URL } from '../../constants/settings'
 
 type Props = {
   isOpen: boolean
@@ -57,12 +57,8 @@ export const StatsModal = ({
               <strong>{solution}</strong> — {definition.definition} <br />{' '}
               <i>E.j: "{definition.example}"</i>
             </h5>
-            {(isGameWon) && (
-              <img src={GIF_URL(solution)} alt="" />
-            )}
-            {(isGameLost) && (
-              <img src={GIF_URL('boludle')} alt="" />
-            )}
+            {isGameWon && <img src={GIF_URL(solution)} alt="" />}
+            {isGameLost && <img src={GIF_URL('boludle')} alt="" />}
           </div>
         </div>
       )}
