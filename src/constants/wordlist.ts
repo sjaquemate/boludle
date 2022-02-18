@@ -36,6 +36,11 @@ const DEFINITIONS: Definition[] = [
     example:
       'Eu Lucas no sabés, solo una persona aprobó el parcial" "Uf, se le va a armar alto bardo al profesor',
   },
+  {
+    word: 'crack',
+    definition: 'dícese de alguien que es muy bueno para algo.',
+    example: 'Wacho, viste cómo toca la guitarra Guille?" "Siii, tremendo, es un crack'
+  }
 ]
 
 let WORDS: string[] = []
