@@ -41,7 +41,7 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'mufar',
-    definition: 'causar mala suerta.',
+    definition: 'causar mala suerte.',
     example:
       'El clima va a estar súper lindo en la costa la semana que viene!" "Noo Ceci que la vas a mufar, tocate la teta izquierda',
   },
