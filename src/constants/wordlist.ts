@@ -39,6 +39,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'Boludle, viste cómo toca la guitarra Guille?" "Siii, tremendo, es un crack',
   },
+  {
+    word: 'mufar',
+    definition: 'causar mala suerta.',
+    example:
+      'El clima va a estar súper lindo en la costa la semana que viene!" "Noo Ceci que la vas a mufar, tocate la teta izquierda',
+  },
 ]
 
 let WORDS: string[] = []
