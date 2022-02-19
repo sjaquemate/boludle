@@ -1,4 +1,4 @@
-# React Bodudle
+# Boludle
 
 Fork from https://github.com/cwackerfuss/react-wordle
 
