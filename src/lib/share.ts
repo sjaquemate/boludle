@@ -9,7 +9,7 @@ export const shareStatus = (
   navigator.clipboard.writeText(
     `Boludle.com ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
       isHardMode ? '*' : ''
-    }\n` +
+    }\n\n` +
       generateEmojiGrid(guesses) +
       ' \n#boludle' +
       ' \n\n'
