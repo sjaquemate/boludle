@@ -45,6 +45,11 @@ const DEFINITIONS: Definition[] = [
     example:
       'El clima va a estar súper lindo en la costa la semana que viene!" "Noo Ceci que la vas a mufar, tocate la teta izquierda',
   },
+  {
+    word: 'ñaupa',
+    definition: 'sinónimo de antiguo.',
+    example: 'Che abu, me re gustan tus zapatos, están re a la moda" "No me digas... Si son del año del ñaupa!'
+  }
 ]
 
 let WORDS: string[] = []
