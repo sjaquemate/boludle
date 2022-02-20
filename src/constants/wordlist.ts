@@ -48,8 +48,9 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'ñaupa',
     definition: 'sinónimo de antiguo.',
-    example: 'Che abu, me re gustan tus zapatos, están re a la moda" "No me digas... Si son del año del ñaupa!'
-  }
+    example:
+      'Che abu, me re gustan tus zapatos, están re a la moda" "No me digas... Si son del año del ñaupa!',
+  },
 ]
 
 let WORDS: string[] = []
