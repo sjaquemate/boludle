@@ -53,9 +53,9 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'forro',
-    definition: 'sinónimo de preservativo, o una persona mala y egoísta.',
+    definition: 'sinónimo de profiláctico, sinónimo de mala persona.',
     example:
-      'Pau no sabés, el boludle me hizo ir a comprar los forros al kiosko a mí porque le daba vergüenza" "Ah pero no es un boludle, es un forrooo',
+      'Boludle, anoche en el boliche un chabón me robó, y me sacó hasta el forro que tenía en la billetera..." "Hay que ser forro eh, posta me decís?',
   },
 ]
 
