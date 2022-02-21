@@ -51,6 +51,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'Che abu, me re gustan tus zapatos, están re a la moda" "No me digas... Si son del año del ñaupa!',
   },
+  {
+    word: 'forro',
+    definition: 'sinónimo de preservativo, o una persona mala y egoísta.',
+    example:
+      'Pau no sabés, el boludle me hizo ir a comprar los forros al kiosko a mí porque le daba vergüenza" "Ah pero no es un boludle, es un forrooo',
+  },
 ]
 
 let WORDS: string[] = []
