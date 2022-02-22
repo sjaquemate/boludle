@@ -57,6 +57,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'Boludle, anoche en el boliche un chabón me robó, y me sacó hasta el forro que tenía en la billetera..." "Hay que ser forro eh, posta me decís?',
   },
+  {
+    word: 'ladri',
+    definition: 'persona que obtiene éxito sin esforzarse.',
+    example:
+      'Santi no hizo nada del TP y aprobó gracias a nosotras, que bronca" "Y si Lula, no se podía esperar otra cosa de ese ladri',
+  },
 ]
 
 let WORDS: string[] = []
