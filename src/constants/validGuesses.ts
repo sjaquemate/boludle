@@ -10877,7 +10877,7 @@ export const VALID_GUESSES = [
   'napia',
   'mufar',
   'minon',
-  'nimir',
+  'mimir',
   'malay',
   'macri',
   'lorca',
@@ -10913,4 +10913,6 @@ export const VALID_GUESSES = [
   'michi',
   'upite',
   'pesto',
+  'chuia',
+  'siome',
 ]
