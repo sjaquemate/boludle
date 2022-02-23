@@ -63,6 +63,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'Santi no hizo nada del TP y aprobó gracias a nosotras, que bronca" "Y si Lula, no se podía esperar otra cosa de ese ladri',
   },
+  {
+    word: 'boton',
+    definition: 'sinónimo de delator, alcahuete.',
+    example:
+      'Trini te acabaste todas las galletitas otra vez, le voy a decir a mamá" "Nooooo Fede dale no seas botón'
+  },
 ]
 
 let WORDS: string[] = []
