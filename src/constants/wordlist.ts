@@ -67,7 +67,7 @@ const DEFINITIONS: Definition[] = [
     word: 'boton',
     definition: 'sinónimo de delator, alcahuete.',
     example:
-      'Trini te acabaste todas las galletitas otra vez, le voy a decir a mamá" "Nooooo Fede dale no seas botón'
+      'Trini te acabaste todas las galletitas otra vez, le voy a decir a mamá" "Nooooo Fede dale no seas botón',
   },
 ]
 

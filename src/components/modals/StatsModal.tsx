@@ -57,7 +57,7 @@ export const StatsModal = ({
               <strong>{solution}</strong> — {definition.definition} <br />{' '}
               <i>E.j: "{definition.example}"</i>
             </h5>
-{/*             {isGameWon && (
+            {/*             {isGameWon && (
               <div className="mt-0">
                 {' '}
                 <img src={GIF_URL(solution)} alt="" />{' '}
