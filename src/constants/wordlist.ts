@@ -69,6 +69,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'Trini te acabaste todas las galletitas otra vez, le voy a decir a mamá" "Nooooo Fede dale no seas botón',
   },
+  {
+    word: 'pando',
+    definition: 'sinónimo de playo, bajo en profunidad. \nDe uso popular en Mendoza.',
+    example:
+      "Maaa, Sofi no me presta el flota flota!!" "Basta eh, que los hago venir a lo pandito de la pile"
+  }
 ]
 
 let WORDS: string[] = []
