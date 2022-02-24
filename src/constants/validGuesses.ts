@@ -10919,4 +10919,6 @@ export const VALID_GUESSES = [
   'jabru',
   'ratis',
   'trolo',
+  'porfa',
+  'porfi',
 ]
