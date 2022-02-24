@@ -73,7 +73,7 @@ const DEFINITIONS: Definition[] = [
     word: 'pando',
     definition: 'sinónimo de playo, bajo en profunidad. \nDe uso popular en Mendoza.',
     example:
-      "Maaa, Sofi no me presta el flota flota!!" "Basta eh, que los hago venir a lo pandito de la pile"
+      'Maaa, Sofi no me presta el flota flota!!" "Basta eh, que los hago venir a lo pandito de la pile'
   }
 ]
 
