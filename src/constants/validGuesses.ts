@@ -10917,4 +10917,6 @@ export const VALID_GUESSES = [
   'siome',
   'yirar',
   'jabru',
+  'ratis',
+  'trolo',
 ]
