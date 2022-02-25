@@ -52,7 +52,18 @@ export const Keyboard = ({
   return (
     <div>
       <div className="flex justify-center mb-1">
-        {['\u0051', '\u0057', '\u0045', '\u0052', '\u0054', '\u0059', '\u0055', '\u0049', '\u004F', '\u0050'].map((key) => (
+        {[
+          '\u0051',
+          '\u0057',
+          '\u0045',
+          '\u0052',
+          '\u0054',
+          '\u0059',
+          '\u0055',
+          '\u0049',
+          '\u004F',
+          '\u0050',
+        ].map((key) => (
           <Key
             value={key}
             key={key}
@@ -63,7 +74,18 @@ export const Keyboard = ({
         ))}
       </div>
       <div className="flex justify-center mb-1">
-        {['\u0041', '\u0053', '\u0044', '\u0046', '\u0047', '\u0048', '\u004A', '\u004B', '\u004C', '\u00D1'].map((key) => (
+        {[
+          '\u0041',
+          '\u0053',
+          '\u0044',
+          '\u0046',
+          '\u0047',
+          '\u0048',
+          '\u004A',
+          '\u004B',
+          '\u004C',
+          '\u00D1',
+        ].map((key) => (
           <Key
             value={key}
             key={key}
@@ -77,7 +99,15 @@ export const Keyboard = ({
         <Key width={65.4} value="ENTER" onClick={onClick}>
           {ENTER_TEXT}
         </Key>
-        {['\u005A', '\u0058', '\u0043', '\u0056', '\u0042', '\u004E', '\u004D'].map((key) => (
+        {[
+          '\u005A',
+          '\u0058',
+          '\u0043',
+          '\u0056',
+          '\u0042',
+          '\u004E',
+          '\u004D',
+        ].map((key) => (
           <Key
             value={key}
             key={key}
