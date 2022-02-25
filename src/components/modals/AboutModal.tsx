@@ -13,8 +13,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
       handleClose={handleClose}
     >
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Este es un juego argentino basado en el código open-source del juego de
-        adivinanzas de palabras que todos conocemos y amamos -{' '}
+        Este es un juego argentino basado en el código open-source de Wordle -{' '}
         <a
           href="https://github.com/sjaquemate/boludle"
           className="underline font-bold"
