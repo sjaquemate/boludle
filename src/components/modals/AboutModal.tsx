@@ -8,12 +8,12 @@ type Props = {
 export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal
-      title="Sobre este juego"
+      title="sobre este juego"
       isOpen={isOpen}
       handleClose={handleClose}
     >
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Este es un juego argentino basado en el código open-source de Wordle -{' '}
+        este es un juego argentino basado en el código open-source de Wordle -{' '}
         <a
           href="https://github.com/sjaquemate/boludle"
           className="underline font-bold"
