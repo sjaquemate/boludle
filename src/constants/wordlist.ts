@@ -76,6 +76,16 @@ const DEFINITIONS: Definition[] = [
     example:
       'Maaa, Sofi no me presta el flota flota!!" "Basta eh, que los hago venir a lo pando de la pile',
   },
+  {
+    word: 'pingo',
+    definition: 'sinonimo de pene.',
+    example: 'ay dios odio la musica de Taylor Swift, no sé como te gusta tanto Oli" "sabés que Juan? chupame el pingo',
+  },
+  {
+    word: 'bondi',
+    definition: 'sinonimo de colectivo, bus.',
+    example: 'che Sebas, media pila, por donde andás?" "sigo en la parada del bondi, te juro que ya estuve esperando como por media hora!',
+  },
 ]
 
 let WORDS: string[] = []
