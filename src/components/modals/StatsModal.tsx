@@ -74,7 +74,7 @@ export const StatsModal = ({
       )}
 
       {(isGameLost || isGameWon) && (
-        <div className="mt-5 sm:mt-5 columns-2 dark:text-white">
+        <div className="mt-5 mb-5 sm:mt-5 columns-2 dark:text-white">
           <div>
             <h5>{NEW_WORD_TEXT}</h5>
             <Countdown
@@ -96,9 +96,16 @@ export const StatsModal = ({
         </div>
       )}
 
-      {/*       <div> */}
-      {/*           Mandanos sugerencias via Twitter o via mail info@boludle.com */}
-      {/*       </div> */}
+      <div>
+        mandanos sugerencias via{' '}
+        <a href="https://twitter.com/boludle" className="underline font-bold">
+          Twitter
+        </a>{' '}
+        o via{' '}
+        <a href="mailto:info@boludle.com" className="underline font-bold">
+          Mail
+        </a>{' '}
+      </div>
 
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
         <br />
