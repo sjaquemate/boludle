@@ -14,7 +14,7 @@ import { SettingsModal } from './components/modals/SettingsModal'
 import ImgMate from './assets/mate.png'
 import {
   //   GAME_TITLE,
-  GAME_SUB_TITLE,
+  //   GAME_SUB_TITLE,
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   ABOUT_GAME_MESSAGE,
@@ -207,7 +207,7 @@ function App() {
 
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-0 mt-10">
+      <div className="flex w-80 mx-auto items-center mb-5 mt-8">
         <h1 className="text-xl ml-2.5 font-bold dark:text-white">boludle</h1>
         <img
           className="h-6 w-6 ml-1 mr-2 cursor-pointer dark:stroke-white"
@@ -227,11 +227,6 @@ function App() {
           className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
           onClick={() => setIsSettingsModalOpen(true)}
         />*/}
-      </div>
-      <div className="flex w-80 mx-auto mb-6 mt-0">
-        <h4 className="text-sm ml-2.5 grow font-medium text-gray-900">
-          {GAME_SUB_TITLE}
-        </h4>
       </div>
       <Grid
         guesses={guesses}
