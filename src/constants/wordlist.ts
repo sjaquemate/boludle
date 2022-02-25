@@ -78,15 +78,15 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'pingo',
-    definition: 'sinonimo de pene.',
+    definition: 'sinónimo de pene.',
     example:
-      'ay dios odio la musica de Taylor Swift, no sé como te gusta tanto Oli" "sabés que Juan? chupame el pingo',
+      'ugh odio la música de Taylor Swift, no sé como te gusta tanto Oli" "con todo respeto Juan, chupame el pingo',
   },
   {
     word: 'bondi',
-    definition: 'sinonimo de colectivo, bus.',
+    definition: 'sinónimo de colectivo, bus.',
     example:
-      'che Sebas, media pila, por donde andás?" "sigo en la parada del bondi, te juro que ya estuve esperando como por media hora!',
+      'che Sebas, media pila, por dónde andás?" "sigo en la parada del bondi, te juro que ya estuve esperando como por media hora!',
   },
 ]
 
