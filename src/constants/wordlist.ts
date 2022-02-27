@@ -88,6 +88,18 @@ const DEFINITIONS: Definition[] = [
     example:
       'che Sebas, media pila, por dónde andás?" "sigo en la parada del bondi, te juro que ya estuve esperando como por media hora!',
   },
+  {
+    word: 'guita',
+    definition: 'sinónimo de dinero.',
+    example:
+      'hola Ale, salimos mañana?" "no puedo, me gasté toda la guita del mes en el queso rallado reggianito de la serenisma',
+  },
+  {
+    word: 'upite',
+    definition: 'sinónimo de cola, trasero.',
+    example:
+      'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levanta el upite',
+  },
 ]
 
 let WORDS: string[] = []

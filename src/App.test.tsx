@@ -21,6 +21,6 @@ beforeEach(() => {
 
 test('renders App component', () => {
   render(<App />)
-  const linkElement = screen.getByText(GAME_SUB_TITLE)
+  const linkElement = screen.getByText('boludle')
   expect(linkElement).toBeInTheDocument()
 })
