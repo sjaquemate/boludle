@@ -95,11 +95,18 @@ const DEFINITIONS: Definition[] = [
       'hola Ale, salimos mañana?" "no puedo, me gasté toda la guita del mes en el queso rallado reggianito de la serenisma',
   },
   {
+    word: 'ñoqui',
+    definition: 'aquel que cobra un sueldo sin trabajar',
+    example:
+      'che Mati ya jugaste al boludle de hoy?" "si, y en horario de trabajo. creo que me convertí en un ñoqui',
+  },
+  {
     word: 'upite',
     definition: 'sinónimo de cola, trasero.',
     example:
       'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levanta el upite',
   },
+  {},
 ]
 
 let WORDS: string[] = []
