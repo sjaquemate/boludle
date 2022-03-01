@@ -104,9 +104,8 @@ const DEFINITIONS: Definition[] = [
     word: 'upite',
     definition: 'sinónimo de cola, trasero.',
     example:
-      'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levanta el upite',
+      'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levantá el upite',
   },
-  {},
 ]
 
 let WORDS: string[] = []
