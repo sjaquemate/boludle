@@ -112,6 +112,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'dale Luly, que casi llegamos al lago!!" "si si pero vayamos más lento Agus, mis gambas no dan más',
   },
+  {
+    word: 'orsai',
+    definition: 'posición adelantada, off-side.',
+    example:
+      'naaaa no me jodas, eso fue orsai!!" "lpm siempre robando este equipo',
+  },
 ]
 
 let WORDS: string[] = []
