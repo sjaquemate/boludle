@@ -106,6 +106,12 @@ const DEFINITIONS: Definition[] = [
     example:
       'che alguno vio el control remoto?" "hmm ni idea" "a ver Ivo, levantá el upite',
   },
+  {
+    word: 'gamba',
+    definition: 'sinónimo de pierna.',
+    example:
+      'dale Luly, que casi llegamos al lago!!" "si si pero vayamos más lento Agus, mis gambas no dan más',
+  },
 ]
 
 let WORDS: string[] = []
