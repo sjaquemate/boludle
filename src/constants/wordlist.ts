@@ -113,6 +113,18 @@ const DEFINITIONS: Definition[] = [
       'dale Luly, que casi llegamos al lago!!" "si si pero vayamos más lento Agus, mis gambas no dan más',
   },
   {
+    word: 'bocha',
+    definition: 'sinónimo de un montón.',
+    example:
+      'che Tito, al final vamos a su casa a cenar hoy. qué llevamos?" "no se preocupen, ya cocinamos una bocha de empanadas. traigan helado si quieren',
+  },
+  {
+    word: 'asado',
+    definition: 'carne vacuna cocinada lentamente a las brasas.',
+    example:
+      'che por qué no invitaron a Martín este finde?" "es que no aplaudió a Javi por el asado que hizo el domingo, mientras todo el resto aplaudíamos. medio tensa la cosa',
+  },
+  {
     word: 'orsai',
     definition: 'posición adelantada, off-side.',
     example:
