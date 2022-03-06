@@ -131,10 +131,59 @@ const DEFINITIONS: Definition[] = [
       'naaaa no me jodas, eso fue orsai!!" "lpm siempre robando este equipo',
   },
   {
+    word: 'punga',
+    definition: 'ladrón que hurta objetos de carteras o abrigos.',
+    example:
+      'chau Ma, me voy al centro!!" "adiós Lina! tené cuidado con los pungas, acordate de no guardar el celu en el bolsillo',
+  },
+  {
     word: 'ceibo',
     definition: 'árbol de la flor nacional del mejor país del mundo.',
     example:
       'hola Mónica! por casualidad viste a Wendy 🐈?" "sabés que no? seguro anda durmiendo sobre el ceibo de los vecinos',
+  },
+  {
+    word: 'facha',
+    definition:
+      'se usa para referirse a alguien bien arreglado, con buen aspecto.',
+    example:
+      'Pablo, te gusta como me quedo el corte?" "te quedo bárbaro, alta facha amigo! a cual peluquería fuiste?',
+  },
+  {
+    word: 'skere',
+    definition: 'dícese de algo que va a estar bueno, de "lets get it"',
+    example:
+      'hola Fran, salimos a comer afuera hoy no? skerry!!" "jajaja es SKERE abu, pero sí! tengo muchas ganas!',
+  },
+  {
+    word: 'lompa',
+    definition: 'sinónimo de pantalón.',
+    example:
+      'che Pau se nota mucho la mancha que tengo en el lompa? cometí un error al sentarme en el pasto" "noo ni se nota, no te preocupes!',
+  },
+  {
+    word: 'truco',
+    definition: 'juego de cartas popular en el mejor país.',
+    example:
+      'Solchi, le decimos a las chicas de ir a la plaza?" "dale, y llevemos cartas pa jugar al truco!',
+  },
+  {
+    word: 'choto',
+    definition: 'sinóninimo de algo feo, no agradable. (enviada por @camdesk)',
+    example:
+      'que choto que estuvo hoy el boludle!" " posta, decí que lo saqué en 5 intentos',
+  },
+  {
+    word: 'pique',
+    definition: 'dícese de un breve corrida o trote hacia algún lugar.',
+    example:
+      'che Maru, a que no te echás un pique al súper para comprar unos tomates?" "dale Pa, me das plata?',
+  },
+  {
+    word: 'zapan',
+    definition: 'panza.',
+    example:
+      'Pedro ya estamos listos, vamos?" "vayan yendo, me duele un poco la zapán, prefiero quedarme',
   },
 ]
 
