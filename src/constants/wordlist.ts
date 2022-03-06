@@ -125,16 +125,16 @@ const DEFINITIONS: Definition[] = [
       'che por qué no invitaron a Martín este finde?" "es que no aplaudió a Javi por el asado que hizo el domingo, mientras todo el resto aplaudíamos. medio tensa la cosa',
   },
   {
-    word: 'ceibo',
-    definition: 'árbol nacional del mejor país del mundo.',
-    example:
-      'Mónica, por casualidad viste a Wendy 🐈?" "no, seguro está durmiendo sobre el ceibo de los vecinos',
-  },
-  {
     word: 'orsai',
     definition: 'posición adelantada, off-side.',
     example:
       'naaaa no me jodas, eso fue orsai!!" "lpm siempre robando este equipo',
+  },
+  {
+    word: 'ceibo',
+    definition: 'árbol de la flor nacional del mejor país del mundo.',
+    example:
+      'hola Mónica! por casualidad viste a Wendy 🐈?" "sabés que no? seguro anda durmiendo sobre el ceibo de los vecinos',
   },
 ]
 
