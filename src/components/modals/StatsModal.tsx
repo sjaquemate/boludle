@@ -27,8 +27,10 @@ type Props = {
   gameStats: GameStats
   isGameLost: boolean
   isGameWon: boolean
-  handleShare: () => void
+  handleShareToClipboard: () => void
   isHardMode: boolean
+  isDarkMode: boolean
+  isHighContrastMode: boolean
 }
 
 export const StatsModal = ({
@@ -38,8 +40,10 @@ export const StatsModal = ({
   gameStats,
   isGameLost,
   isGameWon,
-  handleShare,
+  handleShareToClipboard,
   isHardMode,
+  isDarkMode,
+  isHighContrastMode,
 }: Props) => {
   if (gameStats.totalGames <= 0) {
     return (
@@ -100,8 +104,14 @@ export const StatsModal = ({
             type="button"
             className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:text-sm"
             onClick={() => {
-              shareStatus(guesses, isGameLost, isHardMode)
-              handleShare()
+              shareStatus(
+                guesses,
+                isGameLost,
+                isHardMode,
+                isDarkMode,
+                isHighContrastMode,
+                handleShareToClipboard
+              )
             }}
           >
             {SHARE_TEXT}

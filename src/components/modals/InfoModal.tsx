@@ -15,9 +15,37 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
+<<<<<<< HEAD
         <Cell value="C" status="correct" />
         <Cell value="H" />
         <Cell value="E" />
+=======
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="W"
+          status="correct"
+        />
+        <Cell value="E" />
+        <Cell value="A" />
+        <Cell value="R" />
+        <Cell value="Y" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter W is in the word and in the correct spot.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="P" />
+        <Cell value="I" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="L"
+          status="present"
+        />
+        <Cell value="O" />
+>>>>>>> 7d1a95b867d250bd060c4faa244b7eff9c929f10
         <Cell value="T" />
         <Cell value="O" />
       </div>
@@ -27,10 +55,15 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="G" />
+<<<<<<< HEAD
         <Cell value="A" />
         <Cell value="R" status="present" />
         <Cell value="C" />
         <Cell value="A" />
+=======
+        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="E" />
+>>>>>>> 7d1a95b867d250bd060c4faa244b7eff9c929f10
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         la palabra contiene la letra R pero está en el lugar incorrecto.
@@ -45,6 +78,17 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         la palabra no contiene la letra I.
+      </p>
+
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        This is an open source version of the word guessing game we all know and
+        love -{' '}
+        <a
+          href="https://github.com/cwackerfuss/react-wordle"
+          className="underline font-bold"
+        >
+          check out the code here
+        </a>{' '}
       </p>
     </BaseModal>
   )

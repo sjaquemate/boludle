@@ -1,15 +1,13 @@
 import { WORDS, DEFINITIONS } from '../constants/wordlist'
 import { VALID_GUESSES } from '../constants/validGuesses'
+import { WRONG_SPOT_MESSAGE, NOT_CONTAINED_MESSAGE } from '../constants/strings'
 import { getGuessStatuses } from './statuses'
-import {
-  GUESS_MUST_CONTAIN_MESSAGE,
-  MUST_USE_LETTER_IN_POSITION_MESSAGE,
-} from '../constants/strings'
+import { default as GraphemeSplitter } from 'grapheme-splitter'
 
 export const isWordInWordList = (word: string) => {
   return (
-    WORDS.includes(word.toLowerCase()) ||
-    VALID_GUESSES.includes(word.toLowerCase())
+    WORDS.includes(localeAwareLowerCase(word)) ||
+    VALID_GUESSES.includes(localeAwareLowerCase(word))
   )
 }
 
@@ -19,28 +17,61 @@ export const isWinningWord = (word: string) => {
 
 // build a set of previously revealed letters - present and correct
 // guess must use correct letters in that space and any other revealed letters
+// also check if all revealed instances of a letter are used (i.e. two C's)
 export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
-  const knownLetterSet = new Set<string>()
-  for (const guess of guesses) {
-    const statuses = getGuessStatuses(guess)
+  if (guesses.length === 0) {
+    return false
+  }
 
-    for (let i = 0; i < guess.length; i++) {
-      if (statuses[i] === 'correct' || statuses[i] === 'present') {
-        knownLetterSet.add(guess[i])
-      }
-      if (statuses[i] === 'correct' && word[i] !== guess[i]) {
-        return MUST_USE_LETTER_IN_POSITION_MESSAGE(guess[i], i + 1)
-      }
+  const lettersLeftArray = new Array<string>()
+  const guess = guesses[guesses.length - 1]
+  const statuses = getGuessStatuses(guess)
+  const splitWord = unicodeSplit(word)
+  const splitGuess = unicodeSplit(guess)
+
+  for (let i = 0; i < splitGuess.length; i++) {
+    if (statuses[i] === 'correct' || statuses[i] === 'present') {
+      lettersLeftArray.push(splitGuess[i])
+    }
+    if (statuses[i] === 'correct' && splitWord[i] !== splitGuess[i]) {
+      return WRONG_SPOT_MESSAGE(splitGuess[i], i + 1)
     }
   }
 
-  for (const letter of Array.from(knownLetterSet.values())) {
-    // fail fast, always return first failed letter if applicable
-    if (!word.includes(letter)) {
-      return GUESS_MUST_CONTAIN_MESSAGE(letter)
+  // check for the first unused letter, taking duplicate letters
+  // into account - see issue #198
+  let n
+  for (const letter of splitWord) {
+    n = lettersLeftArray.indexOf(letter)
+    if (n !== -1) {
+      lettersLeftArray.splice(n, 1)
     }
+  }
+
+  if (lettersLeftArray.length > 0) {
+    return NOT_CONTAINED_MESSAGE(lettersLeftArray[0])
   }
   return false
+}
+
+export const unicodeSplit = (word: string) => {
+  return new GraphemeSplitter().splitGraphemes(word)
+}
+
+export const unicodeLength = (word: string) => {
+  return unicodeSplit(word).length
+}
+
+export const localeAwareLowerCase = (text: string) => {
+  return process.env.REACT_APP_LOCALE_STRING
+    ? text.toLocaleLowerCase(process.env.REACT_APP_LOCALE_STRING)
+    : text.toLowerCase()
+}
+
+export const localeAwareUpperCase = (text: string) => {
+  return process.env.REACT_APP_LOCALE_STRING
+    ? text.toLocaleUpperCase(process.env.REACT_APP_LOCALE_STRING)
+    : text.toUpperCase()
 }
 
 export const getWordOfDay = () => {
@@ -49,7 +80,7 @@ export const getWordOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
-  const solution = WORDS[index % WORDS.length].toUpperCase()
+  const solution = localeAwareUpperCase(WORDS[index % WORDS.length])
   const definition = DEFINITIONS[index % DEFINITIONS.length]
 
   return {
