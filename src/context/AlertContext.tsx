@@ -1,3 +1,5 @@
+/* tslint:disable */
+// @ts-nocheck
 import {
   createContext,
   ReactNode,
