@@ -140,7 +140,7 @@ const DEFINITIONS: Definition[] = [
     word: 'ceibo',
     definition: 'árbol de la flor nacional del mejor país del mundo.',
     example:
-      'hola Mónica! por casualidad viste a Wendy 🐈?" "sabés que no? seguro anda durmiendo sobre el ceibo de los vecinos',
+      'hola Mónica! por casualidad viste a Wendy 🐈?" "sabés que no? seguro anda durmiendo sobre el ceibo de los vecinos!',
   },
   {
     word: 'facha',
