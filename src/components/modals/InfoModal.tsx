@@ -15,11 +15,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-<<<<<<< HEAD
-        <Cell value="C" status="correct" />
-        <Cell value="H" />
-        <Cell value="E" />
-=======
         <Cell
           isRevealing={true}
           isCompleted={true}
@@ -45,7 +40,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           status="present"
         />
         <Cell value="O" />
->>>>>>> 7d1a95b867d250bd060c4faa244b7eff9c929f10
         <Cell value="T" />
         <Cell value="O" />
       </div>
@@ -55,15 +49,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="G" />
-<<<<<<< HEAD
         <Cell value="A" />
         <Cell value="R" status="present" />
         <Cell value="C" />
         <Cell value="A" />
-=======
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
->>>>>>> 7d1a95b867d250bd060c4faa244b7eff9c929f10
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         la palabra contiene la letra R pero está en el lugar incorrecto.
