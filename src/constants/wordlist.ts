@@ -185,6 +185,23 @@ const DEFINITIONS: Definition[] = [
     example:
       'Pedro ya estamos listos, vamos?" "vayan yendo, me duele un poco la zapán, prefiero quedarme',
   },
+  {
+    word: 'banda',
+    definition: 'mucha cantidad',
+    example:
+      'traje coca para el fernet!" "uuuf, pero ya tenemos una banda de coca Lean',
+  },
+  {
+    word: 'chivo',
+    definition: 'olor corporal',
+    example:
+      'tengo ganas de volver a clase de manera presencial!" "postaa, aunque no extraño el olor a chivo del bondi',
+  },
+  {
+    word: 'gorra',
+    definition: 'policía, vigilante (despectivo)',
+    example: 'che Justi, no se puede fumar acá" "dale amiga no seas gorra!',
+  },
 ]
 
 let WORDS: string[] = []
