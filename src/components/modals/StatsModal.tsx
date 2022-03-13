@@ -14,11 +14,11 @@ import {
   SHARE_TEXT,
 } from '../../constants/strings'
 // import { GIF_URL } from '../../constants/settings'
-import {
-  TwitterShareButton,
-  TwitterIcon,
-  // WhatsappShareButton
-} from 'react-share'
+// import {
+//   TwitterShareButton,
+//   TwitterIcon,
+//   // WhatsappShareButton
+// } from 'react-share'
 
 type Props = {
   isOpen: boolean
