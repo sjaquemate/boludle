@@ -1,9 +1,9 @@
 import {
   ChartBarIcon,
-  CogIcon,
   InformationCircleIcon,
 } from '@heroicons/react/outline'
 import { GAME_TITLE } from '../../constants/strings'
+import ImgMate from '../../assets/mate.png'
 
 type Props = {
   setIsInfoModalOpen: (value: boolean) => void
@@ -14,7 +14,6 @@ type Props = {
 export const Navbar = ({
   setIsInfoModalOpen,
   setIsStatsModalOpen,
-  setIsSettingsModalOpen,
 }: Props) => {
   return (
     <div className="navbar">
@@ -23,16 +22,31 @@ export const Navbar = ({
           className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
         />
-        <p className="text-xl ml-2.5 font-bold dark:text-white">{GAME_TITLE}</p>
+
+{/* <div className="flex w-80 mx-auto items-center mb-5 mt-8">
+        <h1 className="text-xl ml-2.5 font-bold dark:text-white">boludle</h1>
+        <img
+          className="h-6 w-6 ml-1 mr-2 cursor-pointer dark:stroke-white"
+          src={ImgMate}
+          alt=""
+        /> */}
+        <div className="flex">
+          <p className="text-xl font-bold dark:text-white">{GAME_TITLE}</p>
+          <img
+            className="h-6 w-6 ml-1 cursor-pointer dark:stroke-white"
+            src={ImgMate}
+            alt=""
+          />
+        </div>
         <div className="right-icons">
           <ChartBarIcon
             className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
             onClick={() => setIsStatsModalOpen(true)}
           />
-          <CogIcon
+          {/* <CogIcon
             className="h-6 w-6 cursor-pointer dark:stroke-white"
             onClick={() => setIsSettingsModalOpen(true)}
-          />
+          /> */}
         </div>
       </div>
       <hr></hr>

@@ -10,36 +10,14 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="cómo jugar" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        adiviná la palabra en 6 intentos. después de cada intento, el color de
-        las teclas se modificará para mostrarte que tan cerca estás de acertar.
+        tenés 6 intentos para adivinar la palabra del día. después de cada intento, el color de
+        las teclas se modificará para mostrarte qué tan cerca estás de acertar.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="W"
-          status="correct"
-        />
+        <Cell value="C" status="correct"/>
+        <Cell value="H" />
         <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="L"
-          status="present"
-        />
-        <Cell value="O" />
         <Cell value="T" />
         <Cell value="O" />
       </div>
@@ -69,14 +47,26 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         la palabra no contiene la letra I.
       </p>
 
+      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
+        en boludle, la 
+        palabra del día es una relacionada con Argentina. puede ser del lunfardo, 
+        de uso popular en distintas generaciones y lugares del país, e incluso ser
+        una cosa o figura icónica! 
+      </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        este es un juego argentino basado en el código open-source de Wordle -{' '}
+        <a
+          href="https://github.com/sjaquemate/boludle"
+          className="underline font-bold"
+        >
+          mira el código argentino acá
+        </a>{' '}
+        -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-          check out the code here
+          y el código original acá
         </a>{' '}
       </p>
     </BaseModal>
