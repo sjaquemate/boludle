@@ -202,6 +202,17 @@ const DEFINITIONS: Definition[] = [
     definition: 'policía, vigilante (despectivo)',
     example: 'che Justi, no se puede fumar acá" "dale amiga no seas gorra!',
   },
+  {
+    word: 'funyi',
+    definition: 'sinónimo de sombrero',
+    example:
+      'eu como vas con las clases de tango?" "bárbaro, en cualquier momento me compro el funyi',
+  },
+  {
+    word: 'zafar',
+    definition: '',
+    example: '',
+  },
 ]
 
 let WORDS: string[] = []
