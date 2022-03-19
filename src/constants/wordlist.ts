@@ -211,35 +211,37 @@ const DEFINITIONS: Definition[] = [
   {
     word: 'piola',
     definition: 'dícese de algo bueno o interesante.',
-    example: 'ya escuchaste a la banda de rock que te pasé?" "ehhh.. todavía no" "dale Manuuu, escuchala que está piola!',
-
-  },																								
+    example:
+      'ya escuchaste a la banda de rock que te pasé?" "ehhh.. todavía no" "dale Manuuu, escuchala que está piola!',
+  },
   {
     word: 'grosa',
     definition: 'dícese de una persona genial, o muy buena (en algo).',
-    example: 'che conociste a Flor al final, no? qué tal te pareció?" "siii! una grosa total! la tiene re clara',
-
+    example:
+      'che conociste a Flor al final, no? qué tal te pareció?" "siii! una grosa total! la tiene re clara',
   },
   {
     word: 'guaso',
     definition: 'hombre, fulano, tipo (Córdoba).',
-    example: 'Agus, escuchaste la barbaridad que dijo Miguel? que ignorante por dios!" "si... la verdad, un pobre guaso',
-  },																								
+    example:
+      'Agus, escuchaste la barbaridad que dijo Miguel? que ignorante por dios!" "si... la verdad, un pobre guaso',
+  },
   {
     word: 'zafar',
     definition: 'liberarse de una situación con lo mínimo indispensable.',
-    example: 'no quiero bajarla, pero rendís el examen el lunes no?" "si... pero no entiendo mucho el tema, dudo que vaya a zafar',
-  }, 																								
+    example:
+      'no quiero bajarla, pero rendís el examen el lunes no?" "si... pero no entiendo mucho el tema, dudo que vaya a zafar',
+  },
   {
     word: 'pinta',
     definition: 'buena apariencia.',
-    example: 'uuuf esos ravioles tienen muy buena pinta! los hiciste vos?" "ojalá!! los compré acá a la vuelta',
+    example:
+      'uuuf esos ravioles tienen muy buena pinta! los hiciste vos?" "ojalá!! los compré acá a la vuelta',
   },
   {
     word: 'messi',
     definition: '',
     example: '',
-
   },
 ]
 
