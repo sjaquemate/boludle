@@ -11067,4 +11067,5 @@ export const VALID_GUESSES = [
   'combi',
   'utaco',
   'otaku',
+  'genia',
 ]
