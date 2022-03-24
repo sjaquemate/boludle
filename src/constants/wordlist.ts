@@ -239,9 +239,10 @@ const DEFINITIONS: Definition[] = [
       'uuuf esos ravioles tienen muy buena pinta! los hiciste vos?" "ojalá!! los compré acá a la vuelta',
   },
   {
-    word: 'messi',
-    definition: '',
-    example: '',
+    word: 'minga',
+    definition: 'usase para negar lo que dice alguien fuertemente.',
+    example:
+      'Trini me prestás la remera de encaje para la salida de hoy?" "minga!! la compré hace re poco',
   },
 ]
 

@@ -11068,4 +11068,6 @@ export const VALID_GUESSES = [
   'utaco',
   'otaku',
   'genia',
+  'ñeris',
+  'ortea',
 ]
