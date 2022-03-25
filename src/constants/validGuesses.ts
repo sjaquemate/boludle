@@ -11070,4 +11070,6 @@ export const VALID_GUESSES = [
   'genia',
   'ñeris',
   'ortea',
+  'pijon',
+  'delpo',
 ]

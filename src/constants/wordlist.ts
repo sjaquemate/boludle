@@ -242,7 +242,52 @@ const DEFINITIONS: Definition[] = [
     word: 'minga',
     definition: 'usase para negar lo que dice alguien fuertemente.',
     example:
-      'Trini me prestás la remera de encaje para la salida de hoy?" "minga!! la compré hace re poco',
+      'Trini me prestás la remera de encaje para la salida de hoy?" "minga!! la última vez la manchaste toda',
+  },
+  {
+    word: 'lorca',
+    definition: 'vesre de "calor".',
+    example: 'uyy, que lorca que hace afuera!" "en serio, no entiendo al "team verano"',
+  },
+  {
+    word: 'yerba',
+    definition: 'hojas desecadas, ligeramente tostadas usadas para elaborar el mate.',
+    example: 'vamos afuera a tomar unos mates? está lindo el dia" "dale, esperame que voy al super a comprar yerba y vamos',
+  },
+  {
+    word: 'lucas',
+    definition: 'mil pesos argentinos.',
+    example: 'boludle no sabés, te acordás de la pollera que vimos el otro díá? está a más de 40 lucas!',
+  },
+  {
+    word: 'nashe',
+    definition: 'dícese de algo que está muy bueno; palabra popularizada por el youtuber Coscu.',
+    example: 'ayer mire el twitch del Spreen por primera vez Pa, estuvo re nashee" "no se qué es nalle y quién es Esprin, me explicás?',
+  },
+  {
+    word: 'rajar',
+    definition: 'irse rápidamente',
+    example: 'che Mery, parece que en cualquier momento se larga a llover no?" "posta eh, juntemos las cosas y rajemos',
+  },
+  {
+    word: 'fulbo',
+    definition: 'fútbol',
+    example: 'eu Juani, te copás el domingo venir a jugar un fulbo con lospi?" "dalee, dónde nos juntamos?',
+  },
+  {
+    word: 'garra',
+    definition: 'sinónimo de esfuerzo (en deportes)',
+    example: 'viste la garra que puso Messi? y después algunos lo critican..." "hay gente que habla por hablar nomás',
+  },
+  {
+    word: 'curro',
+    definition: '',
+    example: '',
+  },
+  {
+    word: 'croto',
+    definition: '',
+    example: '',
   },
 ]
 

@@ -1,6 +1,10 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['no sos ningún boludle!']
+export const WIN_MESSAGES = [
+  "no sos ningún boludle!",
+  "Gardel so' vo'? bien ahí, boludle!",
+  "Messi estaría orgulloso, vamo' boludle!",
+]
 export const GAME_COPIED_MESSAGE = 'partida de juego copiada'
 export const NOT_ENOUGH_LETTERS_MESSAGE =
   'cantidad de letras insuficiente, boludle'
