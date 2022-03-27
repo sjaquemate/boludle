@@ -85,41 +85,41 @@ export const StatsModal = ({
       )}
 
       {(isGameLost || isGameWon) && (
-      <div className="mt-5 sm:mt-5 columns-2">
-        <div>
-          <h5>{NEW_WORD_TEXT}</h5>
-          <Countdown
-            className="text-lg font-medium text-gray-900 dark:text-gray-100"
-            date={tomorrow}
-            daysInHours={true}
-          />
-        </div>
+        <div className="mt-5 sm:mt-5 columns-2">
+          <div>
+            <h5>{NEW_WORD_TEXT}</h5>
+            <Countdown
+              className="text-lg font-medium text-gray-900 dark:text-gray-100"
+              date={tomorrow}
+              daysInHours={true}
+            />
+          </div>
 
-        {/* <a
+          {/* <a
         href="https://twitter.com/intent/tweet?text=Hello my stupid tweet%0and this is crazy">
         <TwitterIcon size={32} round />
         </a> */}
 
-        <button
-          type="button"
-          className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:text-sm"
-          onClick={() => {
-            shareStatus(
-              guesses,
-              isGameLost,
-              isHardMode,
-              isDarkMode,
-              isHighContrastMode,
-              handleShareToClipboard
-            )
-          }}
-        >
-          {SHARE_TEXT}
-        </button>
-      </div>
+          <button
+            type="button"
+            className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:text-sm"
+            onClick={() => {
+              shareStatus(
+                guesses,
+                isGameLost,
+                isHardMode,
+                isDarkMode,
+                isHighContrastMode,
+                handleShareToClipboard
+              )
+            }}
+          >
+            {SHARE_TEXT}
+          </button>
+        </div>
       )}
 
-      <div className = "mt-5">
+      <div className="mt-5">
         mandanos sugerencias via{' '}
         <a href="https://twitter.com/boludle" className="underline font-bold">
           Twitter
