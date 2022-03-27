@@ -258,10 +258,10 @@ const DEFINITIONS: Definition[] = [
       'vamos afuera a tomar unos mates? está lindo el dia" "dale, esperame que voy al super a comprar yerba y vamos',
   },
   {
-    word: 'lucas',
-    definition: 'mil pesos argentinos.',
+    word: 'garra',
+    definition: 'sinónimo de esfuerzo (en deportes)',
     example:
-      'boludle no sabés, te acordás de la pollera que vimos el otro díá? está a más de 40 lucas!',
+      'viste la garra que puso Messi? y después algunos lo critican..." "hay gente que habla por hablar nomás',
   },
   {
     word: 'nashe',
@@ -281,12 +281,6 @@ const DEFINITIONS: Definition[] = [
     definition: 'fútbol',
     example:
       'eu Juani, te copás el domingo venir a jugar un fulbo con lospi?" "dalee, dónde nos juntamos?',
-  },
-  {
-    word: 'garra',
-    definition: 'sinónimo de esfuerzo (en deportes)',
-    example:
-      'viste la garra que puso Messi? y después algunos lo critican..." "hay gente que habla por hablar nomás',
   },
   {
     word: 'curro',
