@@ -81,6 +81,13 @@ svg.cursor-pointer:hover {
   justify-content: space-between;
 }
 
+.navbar-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0%;
+}
+
 .right-icons {
   display: flex;
 }
