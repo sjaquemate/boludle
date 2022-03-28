@@ -259,7 +259,7 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'garra',
-    definition: 'sinónimo de esfuerzo (en deportes)',
+    definition: 'sinónimo de esfuerzo (en deportes).',
     example:
       'viste la garra que puso Messi? y después algunos lo critican..." "hay gente que habla por hablar nomás',
   },
@@ -272,13 +272,13 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'rajar',
-    definition: 'irse rápidamente',
+    definition: 'irse rápidamente.',
     example:
       'che Mery, parece que en cualquier momento se larga a llover no?" "posta eh, juntemos las cosas y rajemos',
   },
   {
     word: 'fulbo',
-    definition: 'fútbol',
+    definition: 'fútbol.',
     example:
       'eu Juani, te copás el domingo venir a jugar un fulbo con lospi?" "dalee, dónde nos juntamos?',
   },

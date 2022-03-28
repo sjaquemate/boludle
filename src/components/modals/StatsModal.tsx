@@ -1,5 +1,3 @@
-/* tslint:disable */
-// @ts-nocheck
 import Countdown from 'react-countdown'
 import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
