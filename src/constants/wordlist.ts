@@ -283,6 +283,11 @@ const DEFINITIONS: Definition[] = [
       'eu Juani, te copás el domingo venir a jugar un fulbo con lospi?" "dalee, dónde nos juntamos?',
   },
   {
+    word: 'plomo',
+    definition: 'dícese de una persona o cosa molesta, pesada.',
+    example: 'me crucé a José en la calle y me tuvo ahí dando charla por media hora, no pude escapar" "jodemeee, qué plomo!',
+  },
+  {
     word: 'curro',
     definition: '',
     example: '',

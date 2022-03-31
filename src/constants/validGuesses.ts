@@ -11072,4 +11072,8 @@ export const VALID_GUESSES = [
   'ortea',
   'pijon',
   'delpo',
+  'paqui',
+  'pakis',
+  'yugar',
+  'rrope',
 ]
