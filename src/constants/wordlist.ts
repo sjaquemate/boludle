@@ -289,6 +289,12 @@ const DEFINITIONS: Definition[] = [
       'me crucé a José en la calle y me tuvo ahí dando charla por media hora, no pude escapar" "jodemeee, qué plomo!',
   },
   {
+    word: 'bajon',
+    definition: 'depresión, falta de ánimo.',
+    example:
+      'che loco, si salimos segundos en la fase de grupos del mundial puede que juguemos contra Francia en octavos" "naaaaa que bajón',
+  },
+  {
     word: 'curro',
     definition: '',
     example: '',
