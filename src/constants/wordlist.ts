@@ -295,6 +295,12 @@ const DEFINITIONS: Definition[] = [
       'che loco, si salimos segundos en la fase de grupos del mundial puede que juguemos contra Francia en octavos" "naaaaa que bajón',
   },
   {
+    word: 'napia',
+    definition: 'sinónimo de nariz.',
+    example:
+      'ayer me levanté de la cama medio rápido. me desmayé y me di la napia contra el piso" "no wacho que dolor',
+  },
+  {
     word: 'curro',
     definition: '',
     example: '',
