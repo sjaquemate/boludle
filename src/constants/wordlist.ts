@@ -302,8 +302,9 @@ const DEFINITIONS: Definition[] = [
   },
   {
     word: 'curro',
-    definition: '',
-    example: '',
+    definition: 'sinónimo de estafa, o trabajo fácil para ganar dinero.',
+    example:
+      'che en qué anda laburando Martín estos días?" "ehh no sé con qué curro anda ahora, siempre encuentra algo diferente para vender',
   },
   {
     word: 'croto',
