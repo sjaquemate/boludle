@@ -4,6 +4,7 @@ type Definition = {
   example: string
 }
 
+console.log('this is a new branch')
 const DEFINITIONS: Definition[] = [
   {
     word: 'cacha',
