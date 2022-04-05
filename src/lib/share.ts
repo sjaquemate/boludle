@@ -32,6 +32,8 @@ export const shareStatus = (
   try {
     if (attemptShare(shareData)) {
       navigator.share(shareData)
+      fetch("https://api.countapi.xyz/hit/boludle.com/sharetotal")
+      fetch("https://api.countapi.xyz/hit/boludle.com/sharefancy")
       shareSuccess = true
     }
   } catch (error) {
@@ -41,6 +43,8 @@ export const shareStatus = (
   if (!shareSuccess) {
     navigator.clipboard.writeText(textToShare)
     handleShareToClipboard()
+    fetch("https://api.countapi.xyz/hit/boludle.com/sharetotal")
+    fetch("https://api.countapi.xyz/hit/boludle.com/shareclipboard")
   }
 }
 
