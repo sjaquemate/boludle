@@ -8,8 +8,7 @@ import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
   GUESS_DISTRIBUTION_TEXT,
-  NEW_WORD_TEXT,
-  SHARE_TEXT,
+  NEW_WORD_TEXT
 } from '../../constants/strings'
 // import { GIF_URL } from '../../constants/settings'
 // import {
