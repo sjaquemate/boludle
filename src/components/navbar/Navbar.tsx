@@ -12,12 +12,12 @@ export const Navbar = ({ setIsInfoModalOpen, setIsStatsModalOpen }: Props) => {
   return (
     <div className="navbar">
       <div className="navbar-banner px-5 py-2 bg-slate-200">
-        <p className="text-sm italic mx-5 text-center">
-          <a className="underline font-bold" href="https://www.leer.org/donar">
-            apoyá
-          </a>{' '}
-          la lectura de los boludles más pequeños
-        </p>
+        <div className="text-sm italic mx-5 text-center">
+          el boludle ahora contiene 6 letras! si tenés alguna sugerencia, no dudes en contactarnos en {" "}
+          <a className="underline font-bold" href="https://www.twitter.com/boludle">
+            twitter
+          </a> {' '}!
+        </div>
       </div>
       <div className="navbar-content px-5">
         <InformationCircleIcon
@@ -33,7 +33,7 @@ export const Navbar = ({ setIsInfoModalOpen, setIsStatsModalOpen }: Props) => {
           alt=""
         /> */}
         <div className="flex">
-          <p className="text-xl font-bold dark:text-white">{GAME_TITLE}</p>
+          <div className="text-xl font-bold dark:text-white">{GAME_TITLE}</div>
           <img
             className="h-6 w-6 ml-1 cursor-pointer dark:stroke-white"
             src={ImgMate}

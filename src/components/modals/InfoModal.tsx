@@ -16,33 +16,36 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="C" status="correct" />
+        <Cell value="P" status="correct" />
+        <Cell value="A" />
+        <Cell value="N" />
+        <Cell value="C" />
         <Cell value="H" />
-        <Cell value="E" />
-        <Cell value="T" />
         <Cell value="O" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        la palabra contiene la letra C y está en el lugar correcto.
+        la palabra contiene la letra P y está en el lugar correcto.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="G" />
-        <Cell value="A" />
-        <Cell value="R" status="present" />
+        <Cell value="F" />
+        <Cell value="U" />
+        <Cell value="N" status="present" />
         <Cell value="C" />
         <Cell value="A" />
+        <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        la palabra contiene la letra R pero está en el lugar incorrecto.
+        la palabra contiene la letra N pero está en el lugar incorrecto.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="B" />
+        <Cell value="L" />
         <Cell value="I" status="absent" />
-        <Cell value="R" />
-        <Cell value="R" />
-        <Cell value="A" />
+        <Cell value="O" />
+        <Cell value="N" />
+        <Cell value="E" />
+        <Cell value="L" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         la palabra no contiene la letra I.
