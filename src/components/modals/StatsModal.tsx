@@ -69,7 +69,7 @@ export const StatsModal = ({
 
       {(isGameLost || isGameWon) && (
         <div className="mt-5 sm:mt-5 grid grid-cols-2 items-center">
-          <div className="whitespace-pre-line">
+          <div className="whitespace-pre-line text-xs">
             {generateEmojiGrid(guesses, getEmojiTiles(false, false))}
           </div>
           <div>
