@@ -25582,4 +25582,9 @@ export const VALID_GUESSES = [
   'delpos',
   'paquis',
   'rropes',
+  'chabon',
+  'careta',
+  'ciruja',
+  'fernet',
+  'biyuya',
 ]
