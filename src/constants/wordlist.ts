@@ -7,7 +7,6 @@ type Definition = {
 }
 
 function fetchDefinitions(): Definition[] {
-  fetch("https://api.countapi.xyz/hit/boludle.com/visits")
   const response = fetch("https://opensheet.elk.sh/1rJ_XbZFEH0_YCy2SuwCfZqlVcIjxWXZYgv6z8UNU0Gc/boludle+solutions+6letras", {})
   .json()
   .map( (row: any): Definition => { 
